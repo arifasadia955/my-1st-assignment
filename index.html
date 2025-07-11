@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body class="bg-all">
-    
+
     <header class="front-page bg-head">
         <nav>
             <h3 class="inter blue1">LOGO</h3>
@@ -126,14 +126,17 @@
         <section class="user-form black">
             <div><h1 class="raleway">Let’s Get in <br>Touch</h1></div>
             <form class="inter" action="">
+
                 <label for="email">E-mail</label>
-                <input type="email" name="email" id="email">
+                <input type="email" placeholder="example@email.com" name="email" id="email">
+
                 <label for="name">Name</label>
-                <input type="text" name="name" id="name">
+                <input type="text" placeholder="full name" name="name" id="name">
+
                 <label for="message">Message</label>
-                <input type="text" name="message" id="message" maxlength="30">
-                <!-- <div><button class="btn raleway">Get In Touch</button></div> -->
-                <div><input type="button" class="btn raleway" value="Get In Touch"></div>
+                 <textarea cols="60" name="message" placeholder="write your message...." id="message"></textarea>
+
+                <div ><input type="button" class="form-button btn raleway" value="Get In Touch"></div>
             </form>
         </section>
        

@@ -11,7 +11,6 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-
 .raleway{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -35,8 +34,6 @@
      padding: 12px 36px;
      border-radius: 10px;
      border: none;
-    
-
 }
 .btn:hover{
     cursor: pointer;
@@ -51,22 +48,18 @@
 
 
 /* nav section */
-nav h3{
-    
+nav h3{   
     font-size: 34px;
-
 }
 nav{
     display: flex;
     justify-content: space-between;
     height: 151px;
-    /* max-width: 1140px; */
-    /* margin: 93px 150px 158px 150px; */
     margin: 93px 150px 158px 150px ;
     align-items: center;
-    padding: 50px 0 50px 0;
-    
+    padding: 50px 0 50px 0;   
 }
+
 /* banner section */
 .banner h1{
     font-size: 65px;
@@ -74,41 +67,21 @@ nav{
     margin-bottom: 37px;
 }
 .banner{
-    display: block;
-    
+    display: block;    
     align-items: center;
-    /* background-color: #4E47FF; */
-    /* height: 237px;
-    width: 905px; */
-    
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 152px;
     padding: 5px 30px 152px 30px;
 }
-
 .bg-head{
      background-image: url(../assets/Hero-bg.png);
     background-size: cover;
-    background-position: top;
-    
+    background-position: top;   
 }
-
-.front-page{
-    /* padding-bottom: 152px; */
-    /* padding-top: 158px; */
-    
-}
-   
-
-
-    
-
-
 
 /* action section */
-
 main{
     max-width: 1140px;
     margin: 0 auto;
@@ -123,7 +96,6 @@ main{
 .action-content p{
     margin-bottom: 23px;
 }
-
 .action img{
     height: 328px;
     width: 403px;
@@ -131,18 +103,13 @@ main{
     border-radius: 48px;
 }
 .action{
-    /* background-color: #4E47FF; */
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    /* padding: 62px 0px; */
-    /* text-align: center; */
-    
+    align-items: center;  
 }
 section .action{
     margin: 23px 0px 116px 0px ;
 }
-
 
 /* productive users section */
 .users{
@@ -159,8 +126,7 @@ section .action{
 .users h2{
     font-weight: bold;
     font-size: 38px;
-    margin-bottom: 40px;
-    
+    margin-bottom: 40px;   
 }
 .users li{
     list-style: none;
@@ -169,32 +135,13 @@ section .action{
 .users li h3{
     color: #4E47FF;
     font-size:80px;  
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
 .users li p{
     color: #000000;
     opacity: 50%;
     font-size: 20px;
-
 }
-/* feedback section */
-/* .feedback{
-    margin-top: 116px;
-    background-color:#4E47FF10;
-    text-align: center;
-}
-.feedback h2{
-    font-size: 42px;
-    font-weight: bold;
-}
-.feedback-container{
-    display: flex;
-    
-}
-.feedback-content{
-    background-color: #F5F8FF;
-} */
 .feedback{
     margin-top: 116px;
 }
@@ -210,9 +157,6 @@ section .action{
     border-radius: 14px;
     padding: 24px;   
 }
-.comment-card .image{
-    /* margin-bottom: 24px; */
-}
 .comment-card h4{
     margin-bottom: 8px;
     font-size: 18px;
@@ -222,13 +166,11 @@ section .action{
     margin-bottom: 24px;
     line-height: 20px;
 }
-
 .comment-card .profile{
     display: flex;
     /* align-items: center; */
     gap: 6px;
 }
-
 .profile img{
     border-radius: 25px;
 }
@@ -246,12 +188,12 @@ section .action{
     justify-content: space-between;
     gap: 20px;
 }
+
 /* banner-2 */
 .banner-2{
     margin-top: 116px;
     background-color: #ffffff;
     text-align: center;
-    /* margin: 50px 50px; */
     padding: 71px 150px;
     border-radius: 14px;
 }
@@ -259,7 +201,6 @@ section .action{
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 20px;
-
 }
 .banner-2 p{
     font-size: 15px;
@@ -280,22 +221,16 @@ section .action{
     justify-content: space-between;
     margin-top: 92px;
     align-items: center;
-    /* background-color: bisque; */
-    padding: 71px 0;
-    /* border-radius: 24px; */
+    padding: 71px 0;   
 }
 .user-form h1{
     font-size: 97px;
     font-weight: bold;
-    
-
 }
 .user-form form label{
     font-size: 18px;
-    /* display: block; */
-
 }
-.user-form form input{
+.user-form form input,textarea{
     display: block;
 }
 #email{
@@ -304,7 +239,8 @@ section .action{
     border: 1px solid #D6DDED;
     border-radius: 10px;
     margin-bottom: 19px;
-    
+    width: 497px;   
+    /* height: 70px; */
 }
 #name{
     padding: 20px 32px;
@@ -312,6 +248,7 @@ section .action{
     border: 1px solid #D6DDED;
     border-radius: 10px;
     margin-bottom: 19px;
+    width: 497px; 
 }
 #message{
     padding: 20px 32px;
@@ -319,23 +256,23 @@ section .action{
     border: 1px solid #D6DDED;
     border-radius: 10px;
     margin-bottom: 19px;
+    width: 497px; 
+    
 }
 .user-form label{
     margin-bottom: 10px;
 }
-
+.form-button{
+    width: 497px;
+}
 
 /* footer section */
 .bg-footer{
     background-color: #ffffff;
 }
 .footer-container{
-    /* width: 531px; */
     padding: 103px 454px;
-    text-align: center;
-    
-    
-    
+    text-align: center;    
 }
 .footer-container h1{
     font-size: 100px;
@@ -345,16 +282,11 @@ section .action{
     color: #8987A1;
     font-size: 18px;
     margin-bottom: 20px;
-    
-
 }
 .footer-container .links{
     list-style: none;
     display: flex;
-    justify-content: space-between;
-    
-    
-    
+    justify-content: space-between;   
 }
 .footer-container .links a{
     text-decoration: none;
