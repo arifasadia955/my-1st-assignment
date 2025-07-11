@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* shared styles */
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.blue1{
+    color: #4E47FF;
+}
+.black{
+    color: #252432;
+}
+.gray{
+    color: #252432;
+    opacity: 50%;
+}
+.btn{
+     color:white;
+     font-size: 16px;
+     font-weight: 700;
+     background-color: #4E47FF;
+     padding: 12px 36px;
+     border-radius: 10px;
+     border: none;
+    
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:goldenrod;
+    padding: 20px 40px;
+    color: black;
+    font-weight: 500;
+}
+.bg-all{
+    color: #F5F8FF;
+}
+/* nav section */
+nav h3{
+    
+    font-size: 34px;
+
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 151px;
+    /* max-width: 1140px; */
+    margin: 93px 150px 158px 150px;
+    align-items: center;
+    padding: 50px 0 50px 0;
+    
+}
+/* banner section */
+.banner h1{
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 37px;
+}
+.banner{
+    display: block;
+    
+    align-items: center;
+    /* background-color: #4E47FF; */
+    height: 237px;
+    width: 905px;
+    padding: 5px 30px 0px 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 152px;
+}
+
+.bg-head{
+     background-image: url(../assets/Hero-bg.png);
+    background-size: cover;
+    background-position: top;
+}
+   
+
+
+    
+
+
+
+/* action section */
+
+/* main{
+    background-color: #F5F8FF;
+} */
+.action-content h2{
+    font-size: 42px;
+}
+.action-content{
+    margin: 62px ;
+}
+
+.action img{
+    height: 328px;
+    width: 403px;
+    border: none;
+    border-radius: 48px;
+}
+.action{
+    background-color: #4E47FF;
+    display: flex;
+    justify-content: space-between;
+    
+}
+section .action{
+    margin: 23px 0px 116px 0px ;
+}
+/* productive users section */
+
+/* form section */
+
+/* footer section */
+
+/* feedback section */
+
+
+ 
