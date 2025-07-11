@@ -46,7 +46,7 @@
     font-weight: 500;
 }
 .bg-all{
-    color: #F5F8FF;
+    background-color: #F5F8FF;
 }
 
 
@@ -196,6 +196,54 @@ section .action{
 /* banner-2 */
 
 /* form section */
+.banner-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 92px;
+    align-items: center;
+    background-color: bisque;
+    padding: 71px 0;
+    /* border-radius: 24px; */
+}
+.banner-2 h1{
+    font-size: 97px;
+    font-weight: bold;
+    
+
+}
+.banner-2 form label{
+    font-size: 18px;
+    /* display: block; */
+
+}
+.banner-2 form input{
+    display: block;
+}
+#email{
+    padding: 20px 32px;
+    background-color: #ffffff;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    margin-bottom: 19px;
+    
+}
+#name{
+    padding: 20px 32px;
+    background-color: #ffffff;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    margin-bottom: 19px;
+}
+#message{
+    padding: 20px 32px;
+    background-color: #ffffff;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    margin-bottom: 19px;
+}
+.banner-2 label{
+    margin-bottom: 10px;
+}
 
 
 /* footer section */

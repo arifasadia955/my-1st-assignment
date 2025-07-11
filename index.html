@@ -14,7 +14,7 @@
 
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
+<body class="bg-all">
     <header class="front-page bg-head">
         <nav>
             <h3 class="inter blue1">LOGO</h3>
@@ -81,17 +81,32 @@
 
             </div>
         </section>
-        
+
         <section class="banner-2 black">
-            <div><h1>Let’s Get in Touch</h1></div>
-            <form action="">
+            <div><h1 class="raleway">Let’s Get in <br>Touch</h1></div>
+            <form class="inter" action="">
                 <label for="email">E-mail</label>
                 <input type="email" name="email" id="email">
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name">
                 <label for="message">Message</label>
-                <input type="text" name="message" id="message">
+                <input type="text" name="message" id="message" maxlength="30">
+                <!-- <div><button class="btn raleway">Get In Touch</button></div> -->
+                <div><input type="button" class="btn raleway" value="Get In Touch"></div>
             </form>
+        </section>
+
+        <section class="footer">
+            <div class="footer-container">
+                <h1>LOGO</h1>
+                <h4>Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</h4>
+                <div class="links">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">How if Works</a></li>
+                    <li><a href="">Services</a></li>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
