@@ -142,6 +142,7 @@ section .action{
     opacity: 50%;
     font-size: 20px;
 }
+/* feedback section */
 .feedback{
     margin-top: 116px;
 }
@@ -168,7 +169,6 @@ section .action{
 }
 .comment-card .profile{
     display: flex;
-    /* align-items: center; */
     gap: 6px;
 }
 .profile img{
@@ -183,7 +183,7 @@ section .action{
     font-size: 12px;
 }
 .feedback-container {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     display: flex;
     justify-content: space-between;
     gap: 20px;
